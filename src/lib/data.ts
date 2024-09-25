@@ -2,10 +2,6 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-
-import corpcommentImg from "../../public/corpcomment.png"
-import rmtdevImg from "../../public/rmtdev.png"
-import wordanalyticsImg from "../../public/wordanalytics.png"
 import anonymousmessage1 from "../../public/anonymousmessage1.png"
 import currencyconverter from "../../public/currencyconverter.png"
 import todolist from "../../public/todolist.png"

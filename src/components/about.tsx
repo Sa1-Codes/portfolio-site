@@ -48,7 +48,7 @@ function About() {
             </p>
 
             <p>
-                <span className="italic">When I'm not coding</span>, I enjoy playing
+                <span className="italic">When I&apos;m not coding</span>, I enjoy playing
                 volleyball, watching movies, and go for a walk with my friends. I also enjoy{" "}
                 <span className="font-medium">learning new things</span>.
                 {" "}

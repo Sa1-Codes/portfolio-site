@@ -1,10 +1,8 @@
 "use client"
 import React from 'react'
 import SectionHeading from './sectionHeading'
-import { FaPaperPlane } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 import { useSectionInView } from '@/lib/hooks'
-import { send } from 'process'
 import { sendEmail } from '@/actions/sendEmail'
 import { useFormStatus } from 'react-dom'
 import SubmitBtn from './submitBtn'
