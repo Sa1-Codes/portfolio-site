@@ -1,6 +1,5 @@
 "use client"
-import React, { useState, createContext, Children, useContext } from 'react'
-import {links} from "@/lib/data"
+import React, { useState, createContext, useContext } from 'react'
 import type { sectionName } from '@/lib/types'
 
 

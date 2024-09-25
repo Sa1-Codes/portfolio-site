@@ -1,11 +1,11 @@
 "use client"
 import Image from 'next/image'
-import React, { useEffect } from 'react'
+import React from 'react'
 import {motion} from "framer-motion"
 import Link from 'next/link'
 import { BsArrowRight, BsLinkedin } from 'react-icons/bs'
 import { HiDownload } from 'react-icons/hi'
-import { FaGithubSquare, FaGitSquare } from 'react-icons/fa'
+import { FaGithubSquare } from 'react-icons/fa'
 import { useSectionInView } from '@/lib/hooks'
 import {  useActiveSectionContext } from '@/context/activeSectionContext'
 import pfp from "../../public/pfp.jpg"

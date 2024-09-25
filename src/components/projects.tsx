@@ -1,5 +1,5 @@
 "use client"
-import React, { useEffect, useRef } from 'react'
+import React from 'react'
 import SectionHeading from './sectionHeading'
 import { projectsData } from '@/lib/data'
 import Project from './project'

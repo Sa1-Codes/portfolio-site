@@ -4,7 +4,6 @@ import SectionHeading from './sectionHeading'
 import { motion } from 'framer-motion'
 import { useSectionInView } from '@/lib/hooks'
 import { sendEmail } from '@/actions/sendEmail'
-import { useFormStatus } from 'react-dom'
 import SubmitBtn from './submitBtn'
 import toast from "react-hot-toast"
 
@@ -40,7 +39,7 @@ function Contact() {
 
             <form action={async (FormData)=>{
 
-                const {data, error} = await sendEmail(FormData)
+                const { error} = await sendEmail(FormData)
                 if(error){
                     toast.error(error);
                     return;

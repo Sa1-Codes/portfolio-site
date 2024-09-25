@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useContext } from "react";
+import React from "react";
 import SectionHeading from "./sectionHeading";
 import {
   VerticalTimeline,
@@ -8,13 +8,12 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { experiencesData } from "@/lib/data";
-import { useSectionInView } from "@/lib/hooks";
-import ThemeContextProvider, { useTheme } from "@/context/themeContext";
+import  { useTheme } from "@/context/themeContext";
 
 
 export default function Experience() {
   // const { ref } = useSectionInView("Experience");
-  const {theme,toggleTheme} = useTheme()
+  const {theme} = useTheme()
 
   
  //ref should be included in the section ref = {ref}
