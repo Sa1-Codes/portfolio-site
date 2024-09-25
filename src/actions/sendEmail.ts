@@ -8,7 +8,7 @@ import React from "react";
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 
-export const sendEmail = async (FormData:any) =>{
+export const sendEmail = async (FormData:FormData) =>{
     const senderEmail = FormData.get("senderEmail")
     const message = FormData.get("message")
 
