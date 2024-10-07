@@ -1,3 +1,13 @@
+This is my Portfolio Website. This web application is build on next.js using react.
+This application contains about me, my skills, my projects and contacts.
+In this application, I have intergrated Resend email service for within application communication.
+
+This is hosted using Vercel.
+Here is live link [Portfolio Site](https://sawan-portfolio-site.vercel.app/).
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
